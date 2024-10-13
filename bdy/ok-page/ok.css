@@ -1,0 +1,462 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../ok-page/pics/flower2.webp);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.balloon {
+    height: 60px;
+    width: 55px;
+    background-color: crimson;
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    border-radius: 50px;
+    animation: move 2s ease-in infinite;
+    opacity: 0.1;
+    z-index: 0;
+}
+
+.balloon:before {
+    content: "";
+    height: 60px;
+    width: 6px;
+    position: absolute;
+    background-color: white;
+    top: 93%;
+    left: 40%;
+}
+
+@keyframes move {
+    0% {
+        top: 87%;
+    }
+
+    100% {
+        top: 0%;
+    }
+}
+
+
+.balloon:nth-child(2) {
+    left: 31%;
+    top: 40%;
+    background-color: green;
+    animation-duration: 3s;
+}
+
+.balloon:nth-child(3) {
+    left: 40%;
+    top: 40%;
+    background-color: yellow;
+    animation-duration: 5s;
+}
+
+.balloon:nth-child(4) {
+    left: 47%;
+    top: 40%;
+    background-color: rgb(3, 213, 240);
+    animation-duration: 4s;
+}
+
+.balloon:nth-child(5) {
+    left: 54%;
+    top: 40%;
+    background-color: rgb(128, 0, 119);
+    animation-duration: 3s;
+}
+
+.balloon:nth-child(6) {
+    left: 60%;
+    top: 40%;
+    background-color: rgb(247, 19, 145);
+    animation-duration: 7s;
+}
+
+.balloon:nth-child(7) {
+    left: 70%;
+    top: 40%;
+    background-color: rgb(244, 183, 14);
+    animation-duration: 6s;
+}
+
+.balloon:nth-child(8) {
+    left: 80%;
+    top: 40%;
+    background-color: rgb(235, 53, 202);
+    animation-duration: 3s;
+}
+
+.balloon:nth-child(9) {
+    left: 90%;
+    top: 40%;
+    background-color: yellowgreen;
+    animation-duration: 4s;
+}
+
+.msg-div {
+    width: 550px;
+    height: 800px;
+    /* border: 2px solid yellow; */
+    margin-top: 30px;
+    margin-left: 30px;
+    z-index: 1;
+}
+
+.pera {
+    color: rgba(208, 211, 207, 0.72);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 39px;
+    line-height: 55px;
+    padding: 25px;
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    z-index: 1;
+
+}
+
+.button-div {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.back-button {
+    padding: 7px;
+    border-radius: 10%;
+    display: flex;
+    position: relative;
+    /* background-color: rgba(226, 232, 224, 0.72);
+    box-shadow: 1px 2px rgba(211, 214, 210, 0.72); */
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+}
+
+.back-button:hover {
+    background-color: #e7e7e7;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 360px) {
+    body {
+        background-image: url(../ok-page/pics/bluebackg.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        /* display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center; */
+    }
+
+    .balloon {
+        height: 50px;
+        width: 45px;
+        background-color: crimson;
+        position: absolute;
+        top: 40%;
+        left: 75%;
+        border-radius: 50px;
+        animation: move 2s ease-in infinite;
+        opacity: 0.2;
+        z-index: 0;
+    }
+
+    .balloon:before {
+        content: "";
+        height: 60px;
+        width: 6px;
+        position: absolute;
+        background-color: white;
+        top: 93%;
+        left: 40%;
+    }
+
+    @keyframes move {
+        0% {
+            top: 80%;
+        }
+
+        100% {
+            top: 0%;
+        }
+    }
+
+    .balloon:nth-child(2) {
+        left: 0px;
+        top: 0px;
+        background-color: green;
+        animation-duration: 3s;
+    }
+
+    .balloon:nth-child(3) {
+        left: 20%;
+        top: 0%;
+        background-color: yellow;
+        animation-duration: 5s;
+    }
+
+    .balloon:nth-child(4) {
+        left: 37%;
+        top: 40%;
+        background-color: rgb(3, 213, 240);
+        animation-duration: 4s;
+    }
+
+    .balloon:nth-child(5) {
+        left: 44%;
+        top: 40%;
+        background-color: rgb(128, 0, 119);
+        animation-duration: 3s;
+    }
+
+    .balloon:nth-child(6) {
+        left: 10%;
+        top: 40%;
+        background-color: rgb(247, 19, 145);
+        animation-duration: 7s;
+    }
+
+    .balloon:nth-child(7) {
+        left: 60%;
+        top: 40%;
+        background-color: rgb(244, 183, 14);
+        animation-duration: 6s;
+    }
+
+    .balloon:nth-child(8) {
+        left: 70%;
+        top: 40%;
+        background-color: rgb(235, 53, 202);
+        animation-duration: 3s;
+    }
+
+    .balloon:nth-child(9) {
+        left: 80%;
+        top: 40%;
+        background-color: yellowgreen;
+        animation-duration: 4s;
+    }
+
+    /* .second-div{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid black;
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+} */
+    .msg-div {
+        width: 100vw;
+        height: 100vh;
+        padding: 10px;
+        border: 2px solid yellow;
+        margin-top: 0px;
+        margin-left: 0px;
+        z-index: 1;
+    }
+
+    .pera {
+        color: rgba(48, 14, 74, 0.72);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 32px;
+        line-height: 30px;
+        padding: 15px;
+        font-family: "Caveat", serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        z-index: 1;
+
+    }
+
+    .button-div {
+        position: absolute;
+        right: 40%;
+        /* bottom: 10px; */
+        /* border: 2px solid red; */
+
+        border-radius: 50%;
+    }
+
+    .back-button {
+        padding: 6px;
+        background-color: rgb(207, 83, 160);
+        color: rgb(250, 244, 248);
+        /* border: 2px solid #231717;    */
+        border-radius: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-image: url(../ok-page/pics/bluebackg.jpg);
+        background-repeat: repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        /* display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center; */
+    }
+
+    .balloon {
+        height: 50px;
+        width: 45px;
+        background-color: crimson;
+        position: absolute;
+        top: 40%;
+        left: 75%;
+        border-radius: 50px;
+        animation: move 2s ease-in infinite;
+        opacity: 0.2;
+        z-index: 0;
+    }
+
+    .balloon:before {
+        content: "";
+        height: 60px;
+        width: 6px;
+        position: absolute;
+        background-color: white;
+        top: 93%;
+        left: 40%;
+    }
+
+    @keyframes move {
+        0% {
+            top: 80%;
+        }
+
+        100% {
+            top: 0%;
+        }
+    }
+
+    .balloon:nth-child(2) {
+        left: 0px;
+        top: 0px;
+        background-color: green;
+        animation-duration: 3s;
+    }
+
+    .balloon:nth-child(3) {
+        left: 20%;
+        top: 0%;
+        background-color: yellow;
+        animation-duration: 5s;
+    }
+
+    .balloon:nth-child(4) {
+        left: 37%;
+        top: 40%;
+        background-color: rgb(3, 213, 240);
+        animation-duration: 4s;
+    }
+
+    .balloon:nth-child(5) {
+        left: 44%;
+        top: 40%;
+        background-color: rgb(128, 0, 119);
+        animation-duration: 3s;
+    }
+
+    .balloon:nth-child(6) {
+        left: 10%;
+        top: 40%;
+        background-color: rgb(247, 19, 145);
+        animation-duration: 7s;
+    }
+
+    .balloon:nth-child(7) {
+        left: 60%;
+        top: 40%;
+        background-color: rgb(244, 183, 14);
+        animation-duration: 6s;
+    }
+
+    .balloon:nth-child(8) {
+        left: 70%;
+        top: 40%;
+        background-color: rgb(235, 53, 202);
+        animation-duration: 3s;
+    }
+
+    .balloon:nth-child(9) {
+        left: 80%;
+        top: 40%;
+        background-color: yellowgreen;
+        animation-duration: 4s;
+    }
+
+    /* .second-div{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid black;
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+} */
+    .msg-div {
+        width: 100vw;
+        height: 100vh;
+        padding: 10px;
+        border: 2px solid yellow;
+        margin-top: 0px;
+        margin-left: 0px;
+        z-index: 1;
+    }
+
+    .pera {
+        color: rgba(48, 14, 74, 0.72);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 32px;
+        line-height: 50px;
+        padding: 25px;
+        font-family: "Caveat", serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        z-index: 1;
+
+    }
+
+    .button-div {
+        position: absolute;
+        right: 5%;
+        bottom: 20px;
+
+        border-radius: 50%;
+    }
+
+    .back-button {
+        padding: 6px;
+        background-color: rgb(207, 83, 160);
+        color: rgb(250, 244, 248);
+        /* border: 2px solid #231717;    */
+        border-radius: 50%;
+        padding: 10px;
+    }
+
+}

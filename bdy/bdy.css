@@ -1,0 +1,502 @@
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    background-image:url(../bdy/pics/bgpic.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.ashu-pic-container{
+/* border: 1px solid red; */
+background-image: url(../bdy/pics/image3.jpeg);
+transition: ease-in-out .8s;
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 50%;
+width: 500px;
+height: 500px;
+margin-top: 30px;
+margin-left: 120px;
+box-shadow: 2px 5px 5px rgb(115, 73, 9);
+}
+
+.ashu-pic-container:hover{
+background-image: url(../bdy/pics/pinki.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+border-radius: 50%;
+width: 500px;
+height: 500px;
+margin-top: 30px;
+margin-left: 120px;
+box-shadow: 2px 5px 5px rgb(115, 73, 9);
+cursor: pointer;
+}
+
+.ashu-pic{
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.pera-div{
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 700px;
+    height: 220px;
+    /* border: 2px solid black; */
+    padding: 20px;
+}
+
+.p{
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-size: 70px;
+  color: rgb(232, 87, 111);
+  text-shadow: 3px 4px 0px rgb(184, 49, 72);
+  line-height:100px;
+  cursor: pointer;
+
+}
+
+.wishing:hover{
+    transform: translateY(6px);
+    transition: ease-in-out .2s;
+    text-shadow:  2px 10px rgb(184, 49, 72);
+    font-family: "Caveat", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 70px;
+    color: rgb(232, 87, 111);
+}
+
+.you:hover{
+    transform: translateY(6px);
+    transition: ease-in-out .2s;
+    text-shadow:  2px 10px rgb(184, 49, 72);
+    font-family: "Caveat", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 70px;
+    color: rgb(232, 87, 111);
+}
+
+.a:hover{
+    transform: translateY(6px);
+    transition: ease-in-out .2s;
+    text-shadow:  2px 10px rgb(184, 49, 72);
+    font-family: "Caveat", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 70px;
+    color: rgb(232, 87, 111);
+}
+
+.very:hover{
+    transform: translateY(6px);
+    transition: ease-in-out .2s;
+    text-shadow:  2px 10px rgb(184, 49, 72);
+    font-family: "Caveat", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 70px;
+    color: rgb(232, 87, 111);
+}
+
+.happy:hover{
+    transform: translateY(6px);
+    transition: ease-in-out .2s;
+    text-shadow:  2px 10px rgb(184, 49, 72);
+    font-family: "Caveat", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 70px;
+    color: rgb(232, 87, 111);
+}
+
+.bdy:hover{
+    transform: translateY(6px);
+    transition: ease-in-out .2s;
+    text-shadow:  2px 10px rgb(184, 49, 72);
+    font-family: "Caveat", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 70px;
+    color: rgb(232, 87, 111);
+}
+
+.paglu:hover{
+    transform: translateY(6px);
+    transition: ease-in-out .2s;
+    text-shadow:  2px 10px rgb(184, 49, 72);
+    font-family: "Caveat", cursive;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 70px;
+    color: rgb(232, 87, 111);
+}
+
+
+.button{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-left: 320px;
+    margin-top: 10px;
+    color: white;
+    background-color:rgb(241, 65, 94) ;
+    border: none;
+    box-shadow: 2px 4px rgb(186, 33, 58) ;
+}
+
+
+.button:hover{
+    background-color: rgb(138, 200, 71);
+    color: rgb(17, 75, 16);
+    box-shadow: 2px 4px rgb(106, 162, 22);
+    transform: translateY(2px);
+    transition: ease-in-out .2s
+}
+
+@media only screen and (max-width: 360px)  {
+   body{ background-image:url(../bdy/pics/flower1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100vh;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+.ashu-pic-container{
+    /* border: 6px solid red; */
+    background-image: url(../bdy/pics/image3.jpeg);
+    transition: ease-in-out .8s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-radius: 50%; */
+    width: 250px;
+    height: 250px;
+   margin-top: 0px;
+   margin-left: 0px;
+
+    box-shadow: 2px 5px 5px rgb(115, 73, 9);
+    }
+    .ashu-pic{
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .ashu-pic-container:hover{
+        background-image: url(../bdy/pics/pinki.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+        justify-content: center;
+        box-shadow: 2px 5px 5px rgb(115, 73, 9);
+        cursor: pointer;
+        margin-top: 0px;
+        margin-left: 0px;
+
+        } 
+        .pera-div{
+            margin-left: 0px;
+            margin-top: 0px;
+            width: 80%;
+            height: 130px;
+            /* border: 2px solid black; */
+            padding: 10px;
+        } 
+
+        .p{
+            font-family: "Caveat", cursive;
+            font-optical-sizing: auto;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 26px;
+            color: rgb(232, 87, 111);
+            text-shadow: 1px 2px  rgb(197, 56, 79);
+            line-height:50px;
+            cursor: pointer;
+          }
+
+          .wishing:hover{
+            transform: translateY(6px);
+            transition: ease-in-out .2s;
+            text-shadow:  2px 10px rgb(184, 49, 72);
+            font-family: "Caveat", cursive;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 26px;
+            color: rgb(232, 87, 111);
+        }
+
+        .you:hover{
+            transform: translateY(6px);
+            transition: ease-in-out .2s;
+            text-shadow:  2px 10px rgb(184, 49, 72);
+            font-family: "Caveat", cursive;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 26px;
+            color: rgb(232, 87, 111);
+        }
+        
+        .a:hover{
+            transform: translateY(6px);
+            transition: ease-in-out .2s;
+            text-shadow:  2px 10px rgb(184, 49, 72);
+            font-family: "Caveat", cursive;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 26px;
+            color: rgb(232, 87, 111);
+        }
+        
+        .very:hover{
+            transform: translateY(6px);
+            transition: ease-in-out .2s;
+            text-shadow:  2px 10px rgb(184, 49, 72);
+            font-family: "Caveat", cursive;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 26px;
+            color: rgb(232, 87, 111);
+        }
+        
+        .happy:hover{
+            transform: translateY(6px);
+            transition: ease-in-out .2s;
+            text-shadow:  2px 10px rgb(184, 49, 72);
+            font-family: "Caveat", cursive;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 26px;
+            color: rgb(232, 87, 111);
+        }
+        
+        .bdy:hover{
+            transform: translateY(6px);
+            transition: ease-in-out .2s;
+            text-shadow:  2px 10px rgb(184, 49, 72);
+            font-family: "Caveat", cursive;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 26px;
+            color: rgb(232, 87, 111);
+        }
+        
+        .paglu:hover{
+            transform: translateY(6px);
+            transition: ease-in-out .2s;
+            text-shadow:  2px 10px rgb(184, 49, 72);
+            font-family: "Caveat", cursive;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 26px;
+            color: rgb(232, 87, 111);
+        }
+       
+        .button{
+            padding: 5px 8px;
+            font-size: 11px;
+            font-weight: bold;
+            border-radius: 20%;
+            margin-left: 0%;
+            margin-top: 0px;
+            color: white;
+            background-color:rgb(241, 65, 94) ;
+            border: none;
+            box-shadow: 2px 4px rgb(186, 33, 58) ;
+        }
+
+
+}
+
+
+@media only screen and (max-width: 480px)  {
+    body{ background-image:url(../bdy/pics/flower1.jpg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     width: 100%;
+     height: 100vh;   
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+   
+ }
+ 
+ .main-containe-ashu-pic{
+ width: 350px;
+ height: 350px;
+ background-color: aquamarine;
+ 
+ }
+ 
+ .ashu-pic-container{
+     /* border: 6px solid red; */
+     background-image: url(../bdy/pics/image3.jpeg);
+     transition: ease-in-out .8s;
+     background-repeat: no-repeat;
+     background-size: cover;
+     /* border-radius: 50%; */
+     width: 350px;
+     height: 350px;
+    margin-top: 0px;
+    margin-left: 0px;
+ 
+     box-shadow: 2px 5px 5px rgb(115, 73, 9);
+     }
+     .ashu-pic{
+         object-fit: cover;
+         overflow: hidden;
+         width: 100%;
+         height: 100%;
+         border-radius: 50%;
+     }
+     .ashu-pic-container:hover{
+         background-image: url(../bdy/pics/pinki.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+         border-radius: 50%;
+         width: 350px;
+         height: 350px;
+         justify-content: center;
+         box-shadow: 2px 5px 5px rgb(115, 73, 9);
+         cursor: pointer;
+         margin-top: 0px;
+         margin-left: 0px;
+ 
+         } 
+         .pera-div{
+             margin-left: 0px;
+             margin-top: 0px;
+             width: 90%;
+             height: 130px;
+             /* border: 2px solid greenyellow; */
+             padding: 10px;
+         } 
+ 
+         .p{
+             font-family: "Caveat", cursive;
+             font-optical-sizing: auto;
+             font-weight: bold;
+             font-style: normal;
+             font-size: 36px;
+             color: rgb(232, 87, 111);
+             text-shadow: 1px 2px  rgb(197, 56, 79);
+             line-height:60px;
+             cursor: pointer;
+             text-align: center;
+             padding: 20px;
+           }
+ 
+           .wishing:hover{
+             transform: translateY(6px);
+             transition: ease-in-out .2s;
+             text-shadow:  2px 10px rgb(184, 49, 72);
+             font-family: "Caveat", cursive;
+             font-weight: bold;
+             font-style: normal;
+             font-size: 26px;
+             color: rgb(232, 87, 111);
+         }
+ 
+         .you:hover{
+             transform: translateY(6px);
+             transition: ease-in-out .2s;
+             text-shadow:  2px 10px rgb(184, 49, 72);
+             font-family: "Caveat", cursive;
+             font-weight: bold;
+             font-style: normal;
+             font-size: 26px;
+             color: rgb(232, 87, 111);
+         }
+         
+         .a:hover{
+             transform: translateY(6px);
+             transition: ease-in-out .2s;
+             text-shadow:  2px 10px rgb(184, 49, 72);
+             font-family: "Caveat", cursive;
+             font-weight: bold;
+             font-style: normal;
+             font-size: 26px;
+             color: rgb(232, 87, 111);
+         }
+         
+         .very:hover{
+             transform: translateY(6px);
+             transition: ease-in-out .2s;
+             text-shadow:  2px 10px rgb(184, 49, 72);
+             font-family: "Caveat", cursive;
+             font-weight: bold;
+             font-style: normal;
+             font-size: 26px;
+             color: rgb(232, 87, 111);
+         }
+         
+         .happy:hover{
+             transform: translateY(6px);
+             transition: ease-in-out .2s;
+             text-shadow:  2px 10px rgb(184, 49, 72);
+             font-family: "Caveat", cursive;
+             font-weight: bold;
+             font-style: normal;
+             font-size: 26px;
+             color: rgb(232, 87, 111);
+         }
+         
+         .bdy:hover{
+             transform: translateY(6px);
+             transition: ease-in-out .2s;
+             text-shadow:  2px 10px rgb(184, 49, 72);
+             font-family: "Caveat", cursive;
+             font-weight: bold;
+             font-style: normal;
+             font-size: 26px;
+             color: rgb(232, 87, 111);
+         }
+         
+         .paglu:hover{
+             transform: translateY(6px);
+             transition: ease-in-out .2s;
+             text-shadow:  2px 10px rgb(184, 49, 72);
+             font-family: "Caveat", cursive;
+             font-weight: bold;
+             font-style: normal;
+             font-size: 26px;
+             color: rgb(232, 87, 111);
+         }
+        
+         .button{
+             padding: 10px 15px;
+             font-size: 15px;
+             font-weight: bold;
+             border-radius: 20%;
+             margin-left: 0%;
+             margin-top: 80px;
+             color: white;
+             background-color:rgb(241, 65, 94) ;
+             border: none;
+             box-shadow: 2px 4px rgb(186, 33, 58) ;
+         }
+ 
+ 
+ }
