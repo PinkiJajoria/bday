@@ -6,14 +6,14 @@
    box-sizing: border-box;
 }
 body{
-    background-image:url(../pics/bgpic.webp);
+    background-image:url(pics/bgpic.webp);
     background-repeat: no-repeat;
     background-size:cover;
     
 }
 .ashu-pic-container{
 /* border: 1px solid red; */
-background-image: url(../pics/image3.jpeg);
+background-image: url(pics/image3.jpeg);
 transition: ease-in-out .8s;
 background-repeat: no-repeat;
 background-size: cover;
@@ -26,7 +26,7 @@ box-shadow: 2px 5px 5px rgb(115, 73, 9);
 }
 
 .ashu-pic-container:hover{
-background-image: url(../pics/pinki.jpeg);
+background-image: url(pics/pinki.jpeg);
 background-repeat: no-repeat;
 background-size: cover;
 border-radius: 50%;
@@ -167,7 +167,7 @@ cursor: pointer;
 }
 
 @media only screen and (max-width: 360px)  {
-   body{ background-image:url(../pics/flower1.jpg);
+   body{ background-image:url(pics/flower1.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     width: 100%;
@@ -182,7 +182,7 @@ cursor: pointer;
 
 .ashu-pic-container{
     /* border: 6px solid red; */
-    background-image: url(../pics/image3.jpeg);
+    background-image: url(pics/image3.jpeg);
     transition: ease-in-out .8s;
     background-repeat: no-repeat;
     background-size: cover;
@@ -202,7 +202,7 @@ cursor: pointer;
         border-radius: 50%;
     }
     .ashu-pic-container:hover{
-        background-image: url(../pics/pinki.jpeg);
+        background-image: url(pics/pinki.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 50%;
@@ -331,7 +331,7 @@ cursor: pointer;
 
 
 @media only screen and (max-width: 480px)  {
-    body{ background-image:url(../pics/flower1.jpg);
+    body{ background-image:url(pics/flower1.jpg);
      background-repeat: no-repeat;
      background-size:cover;
      width: 100%;
@@ -352,7 +352,7 @@ cursor: pointer;
  
  .ashu-pic-container{
      /* border: 6px solid red; */
-     background-image: url(../pics/image3.jpeg);
+     background-image: url(pics/image3.jpeg);
      transition: ease-in-out .8s;
      background-repeat: no-repeat;
      background-size: cover;
@@ -372,7 +372,7 @@ cursor: pointer;
          border-radius: 50%;
      }
      .ashu-pic-container:hover{
-         background-image: url(../pics/pinki.jpeg);
+         background-image: url(pics/pinki.jpeg);
          background-repeat: no-repeat;
          background-size: cover;
          border-radius: 50%;
