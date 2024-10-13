@@ -1,9 +1,9 @@
 function showAlert() {
     const result = confirm('Press OK or Cancel');
     if (result===true) {
-        window.location.href="/home/pinki/code/practice/bdy/ok-page/ok.html"
+        window.location.href="ok-page/ok.html"
     }else{
-        window.location.href="/home/pinki/code/practice/bdy/cancel-page/cancel.html"
+        window.location.href="cancel-page/cancel.html"
     }
 }
 
