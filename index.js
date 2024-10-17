@@ -1,9 +1,9 @@
 function showAlert() {
-    const result = confirm('Press OK or Cancel');
+    const result = confirm('something for you in both buttons');
     if (result===true) {
-        window.location.href="ok-page/ok.html"
-    }else{
         window.location.href="cancel-page/cancel.html"
+    }else{
+        window.location.href="ok-page/ok.html"
     }
 }
 
