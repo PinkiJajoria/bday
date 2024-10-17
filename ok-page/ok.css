@@ -48,7 +48,7 @@ body {
 
 
 .balloon:nth-child(2) {
-    left: 31%;
+    left: 21%;
     top: 40%;
     background-color: green;
     animation-duration: 3s;
@@ -83,7 +83,7 @@ body {
 }
 
 .balloon:nth-child(7) {
-    left: 70%;
+    left: 660%;
     top: 40%;
     background-color: rgb(244, 183, 14);
     animation-duration: 6s;
@@ -97,7 +97,7 @@ body {
 }
 
 .balloon:nth-child(9) {
-    left: 90%;
+    left: 70%;
     top: 40%;
     background-color: yellowgreen;
     animation-duration: 4s;
@@ -153,32 +153,31 @@ a {
 }
 
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 320px){ 
+
     body {
         background-image: url(pics/bluebackg.jpg);
-        background-repeat: repeat;
+        height: 100vh;  
+        width: 100vw;
+        background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
-        height: 100vh;
-        /* display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center; */
+        background-position: center;
+        /* background-position: top; */
     }
-
+    
     .balloon {
-        height: 50px;
-        width: 45px;
+        height: 60px;
+        width: 55px;
         background-color: crimson;
         position: absolute;
         top: 40%;
         left: 75%;
         border-radius: 50px;
         animation: move 2s ease-in infinite;
-        opacity: 0.2;
+        opacity: 0.1;
         z-index: 0;
     }
-
+    
     .balloon:before {
         content: "";
         height: 60px;
@@ -188,275 +187,292 @@ a {
         top: 93%;
         left: 40%;
     }
-
+    
     @keyframes move {
         0% {
-            top: 80%;
+            top: 87%;
         }
-
+    
         100% {
             top: 0%;
         }
     }
-
+    
+    
     .balloon:nth-child(2) {
-        left: 0px;
-        top: 0px;
+        left: 31%;
+        top: 40%;
         background-color: green;
         animation-duration: 3s;
     }
-
+    
     .balloon:nth-child(3) {
-        left: 20%;
-        top: 0%;
+        left: 40%;
+        top: 40%;
         background-color: yellow;
-        animation-duration: 5s;
+        animation-duration: 7s;
     }
-
+    
     .balloon:nth-child(4) {
-        left: 37%;
+        left: 47%;
         top: 40%;
         background-color: rgb(3, 213, 240);
         animation-duration: 4s;
     }
-
+    
     .balloon:nth-child(5) {
-        left: 44%;
+        left: 54%;
         top: 40%;
         background-color: rgb(128, 0, 119);
-        animation-duration: 3s;
+        animation-duration: 2s;
     }
-
+    
     .balloon:nth-child(6) {
-        left: 10%;
+        left: 60%;
         top: 40%;
         background-color: rgb(247, 19, 145);
         animation-duration: 7s;
     }
-
+    
     .balloon:nth-child(7) {
-        left: 60%;
+        left: 30%;
         top: 40%;
         background-color: rgb(244, 183, 14);
-        animation-duration: 6s;
-    }
-
-    .balloon:nth-child(8) {
-        left: 70%;
-        top: 40%;
-        background-color: rgb(235, 53, 202);
         animation-duration: 3s;
     }
-
+    
+    .balloon:nth-child(8) {
+        left: 10%;
+        top: 40%;
+        background-color: rgb(235, 53, 202);
+        animation-duration: 1s;
+    }
+    
     .balloon:nth-child(9) {
-        left: 80%;
+        left: 20%;
         top: 40%;
         background-color: yellowgreen;
         animation-duration: 4s;
     }
-
-    /* .second-div{
-    width: 100vw;
-    height: 100vh;
-    border: 2px solid black;
-    display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-} */
+    
     .msg-div {
         width: 100vw;
-        height: 100vh;
-        padding: 10px;
-        border: 2px solid yellow;
+        /* height: 800px; */
+        /* border: 2px solid yellow; */
         margin-top: 0px;
         margin-left: 0px;
         z-index: 1;
+        padding: .2rem;
     }
-
+    
     .pera {
-        color: rgba(48, 14, 74, 0.72);
+        color: rgba(28, 36, 25, 0.72);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 32px;
-        line-height: 30px;
-        padding: 15px;
+        font-size: 2rem;
+        line-height: 2.1rem;
+        /* padding: 25px; */
         font-family: "Caveat", serif;
         font-optical-sizing: auto;
-        font-weight: bold;
+        font-weight: bolder;
         font-style: normal;
         z-index: 1;
-
+    
     }
-
+    
     .button-div {
         position: absolute;
-        right: 40%;
-        /* bottom: 10px; */
-        /* border: 2px solid red; */
-
-        border-radius: 50%;
+        bottom: 20px;
+        right: 20px;
     }
-
+    
     .back-button {
-        padding: 6px;
-        background-color: rgb(207, 83, 160);
-        color: rgb(250, 244, 248);
-        /* border: 2px solid #231717;    */
-        border-radius: 50%;
+        box-shadow: 3px 4px 0px 0px #899599;
+        background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+        background-color:#ededed;
+        border-radius:50%;
+        border:1px solid #d6bcd6;
+        display:inline-block;
+        cursor:pointer;
+        color:#16363e;
+        font-family:Arial;
+        font-size:1rem;
+        padding:.6rem .8rem;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #e1e2ed;
     }
-
+    .back-button:hover {
+        background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+        background-color:#bab1ba;
+    }
+    .back-button:active {
+        position:relative;
+        top:1px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
 }
 
-@media only screen and (max-width: 480px) {
-    body {
-        background-image: url(pics/bluebackg.jpg);
-        background-repeat: repeat;
-        background-size: cover;
-        width: 100%;
-        height: 100vh;
-        /* display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center; */
-    }
 
-    .balloon {
-        height: 50px;
-        width: 45px;
-        background-color: crimson;
-        position: absolute;
-        top: 40%;
-        left: 75%;
-        border-radius: 50px;
-        animation: move 2s ease-in infinite;
-        opacity: 0.2;
-        z-index: 0;
-    }
+    @media only screen and (min-width: 320px){ 
 
-    .balloon:before {
-        content: "";
-        height: 60px;
-        width: 6px;
-        position: absolute;
-        background-color: white;
-        top: 93%;
-        left: 40%;
-    }
-
-    @keyframes move {
-        0% {
-            top: 80%;
+        body {
+            background-image: url(pics/bluebackg.jpg);
+            height: 100vh;  
+            width: 100vw;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            /* background-position: top; */
         }
-
-        100% {
-            top: 0%;
+        
+        .balloon {
+            height: 60px;
+            width: 55px;
+            background-color: crimson;
+            position: absolute;
+            top: 40%;
+            left: 75%;
+            border-radius: 50px;
+            animation: move 2s ease-in infinite;
+            opacity: 0.1;
+            z-index: 0;
         }
-    }
-
-    .balloon:nth-child(2) {
-        left: 0px;
-        top: 0px;
-        background-color: green;
-        animation-duration: 3s;
-    }
-
-    .balloon:nth-child(3) {
-        left: 20%;
-        top: 0%;
-        background-color: yellow;
-        animation-duration: 5s;
-    }
-
-    .balloon:nth-child(4) {
-        left: 37%;
-        top: 40%;
-        background-color: rgb(3, 213, 240);
-        animation-duration: 4s;
-    }
-
-    .balloon:nth-child(5) {
-        left: 44%;
-        top: 40%;
-        background-color: rgb(128, 0, 119);
-        animation-duration: 3s;
-    }
-
-    .balloon:nth-child(6) {
-        left: 10%;
-        top: 40%;
-        background-color: rgb(247, 19, 145);
-        animation-duration: 7s;
-    }
-
-    .balloon:nth-child(7) {
-        left: 60%;
-        top: 40%;
-        background-color: rgb(244, 183, 14);
-        animation-duration: 6s;
-    }
-
-    .balloon:nth-child(8) {
-        left: 70%;
-        top: 40%;
-        background-color: rgb(235, 53, 202);
-        animation-duration: 3s;
-    }
-
-    .balloon:nth-child(9) {
-        left: 80%;
-        top: 40%;
-        background-color: yellowgreen;
-        animation-duration: 4s;
-    }
-
-    /* .second-div{
-    width: 100vw;
-    height: 100vh;
-    border: 2px solid black;
-    display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-} */
-    .msg-div {
-        width: 100vw;
-        height: 100vh;
-        padding: 10px;
-        border: 2px solid yellow;
-        margin-top: 0px;
-        margin-left: 0px;
-        z-index: 1;
-    }
-
-    .pera {
-        color: rgba(48, 14, 74, 0.72);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 32px;
-        line-height: 50px;
-        padding: 25px;
-        font-family: "Caveat", serif;
-        font-optical-sizing: auto;
-        font-weight: bold;
-        font-style: normal;
-        z-index: 1;
-
-    }
-
-    .button-div {
-        position: absolute;
-        right: 5%;
-        bottom: 20px;
-
-        border-radius: 50%;
-    }
-
-    .back-button {
-        padding: 6px;
-        background-color: rgb(207, 83, 160);
-        color: rgb(250, 244, 248);
-        /* border: 2px solid #231717;    */
-        border-radius: 50%;
-        padding: 10px;
-    }
-
+        
+        .balloon:before {
+            content: "";
+            height: 60px;
+            width: 6px;
+            position: absolute;
+            background-color: white;
+            top: 93%;
+            left: 40%;
+        }
+        
+        @keyframes move {
+            0% {
+                top: 87%;
+            }
+        
+            100% {
+                top: 0%;
+            }
+        }
+        
+        
+        .balloon:nth-child(2) {
+            left: 31%;
+            top: 40%;
+            background-color: green;
+            animation-duration: 3s;
+        }
+        
+        .balloon:nth-child(3) {
+            left: 40%;
+            top: 40%;
+            background-color: yellow;
+            animation-duration: 7s;
+        }
+        
+        .balloon:nth-child(4) {
+            left: 47%;
+            top: 40%;
+            background-color: rgb(3, 213, 240);
+            animation-duration: 4s;
+        }
+        
+        .balloon:nth-child(5) {
+            left: 54%;
+            top: 40%;
+            background-color: rgb(128, 0, 119);
+            animation-duration: 2s;
+        }
+        
+        .balloon:nth-child(6) {
+            left: 60%;
+            top: 40%;
+            background-color: rgb(247, 19, 145);
+            animation-duration: 7s;
+        }
+        
+        .balloon:nth-child(7) {
+            left: 30%;
+            top: 40%;
+            background-color: rgb(244, 183, 14);
+            animation-duration: 3s;
+        }
+        
+        .balloon:nth-child(8) {
+            left: 10%;
+            top: 40%;
+            background-color: rgb(235, 53, 202);
+            animation-duration: 1s;
+        }
+        
+        .balloon:nth-child(9) {
+            left: 20%;
+            top: 40%;
+            background-color: yellowgreen;
+            animation-duration: 4s;
+        }
+        
+        .msg-div {
+            width: 100vw;
+            /* height: 800px; */
+            /* border: 2px solid yellow; */
+            margin-top: 0px;
+            margin-left: 0px;
+            z-index: 1;
+            padding: .2rem;
+        }
+        
+        .pera {
+            color: rgba(28, 36, 25, 0.72);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2rem;
+            line-height: 2.1rem;
+            /* padding: 25px; */
+            font-family: "Caveat", serif;
+            font-optical-sizing: auto;
+            font-weight: bolder;
+            font-style: normal;
+            z-index: 1;
+        
+        }
+        
+        .button-div {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+        
+        .back-button {
+            box-shadow: 3px 4px 0px 0px #899599;
+            background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+            background-color:#ededed;
+            border-radius:50%;
+            border:1px solid #d6bcd6;
+            display:inline-block;
+            cursor:pointer;
+            color:#16363e;
+            font-family:Arial;
+            font-size:1rem;
+            padding:.6rem .8rem;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #e1e2ed;
+        }
+        .back-button:hover {
+            background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+            background-color:#bab1ba;
+        }
+        .back-button:active {
+            position:relative;
+            top:1px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
 }

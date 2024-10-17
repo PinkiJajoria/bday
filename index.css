@@ -1,76 +1,80 @@
-
-
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-body{
-    background-image:url(pics/bgpic.webp);
+
+body {
+    background-image: url(pics/bgpic.webp);
     background-repeat: no-repeat;
-    background-size:cover;
-    
-}
-.ashu-pic-container{
-/* border: 1px solid red; */
-background-image: url(pics/image3.jpeg);
-transition: ease-in-out .8s;
-background-repeat: no-repeat;
-background-size: cover;
-border-radius: 50%;
-width: 500px;
-height: 500px;
-margin-top: 30px;
-margin-left: 120px;
-box-shadow: 2px 5px 5px rgb(115, 73, 9);
+    background-size: cover;
+
 }
 
-.ashu-pic-container:hover{
-background-image: url(pics/pinki.jpeg);
-background-repeat: no-repeat;
-background-size: cover;
-border-radius: 50%;
-width: 500px;
-height: 500px;
-margin-top: 30px;
-margin-left: 120px;
-box-shadow: 2px 5px 5px rgb(115, 73, 9);
-cursor: pointer;
+.ashu-pic-container {
+    /* border: 1px solid red; */
+    background-image: url(pics/image3.jpeg);
+    transition: ease-in-out .8s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 25rem;
+    height: 25rem;
+    /* margin-top: 30px;
+    margin-left: 120px; */
+    box-shadow: 2px 5px 5px rgb(115, 73, 9);
 }
 
-.ashu-pic{
+.ashu-pic-container:hover {
+    background-image: url(pics/pinki.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 27rem;
+    height: 27rem;
+    /* margin-top: 30px;
+    margin-left: 120px; */
+    box-shadow: 2px 5px 5px rgb(115, 73, 9);
+    cursor: pointer;
+}
+
+.ashu-pic {
     object-fit: cover;
     overflow: hidden;
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
-.pera-div{
-    margin-left: 50px;
-    margin-top: 30px;
-    width: 700px;
-    height: 220px;
+
+.pera-div {
+    /* margin-left: 50px;
+    margin-top: 30px; */
+    /* width: 700px; */
+    /* height: 220px; */
     /* border: 2px solid black; */
     padding: 20px;
 }
 
-.p{
-  font-family: "Caveat", cursive;
-  font-optical-sizing: auto;
-  font-weight: bolder;
-  font-style: normal;
-  font-size: 70px;
-  color: rgb(232, 87, 111);
-  text-shadow: 3px 4px 0px rgb(184, 49, 72);
-  line-height:100px;
-  cursor: pointer;
+.p {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 2rem;
+    color: rgb(232, 87, 111);
+    text-shadow: 3px 4px 0px rgb(184, 49, 72);
+    line-height: 3rem;
+    cursor: pointer;
+
 
 }
 
-.wishing:hover{
+
+
+.wishing:hover {
     transform: translateY(6px);
     transition: ease-in-out .2s;
-    text-shadow:  2px 10px rgb(184, 49, 72);
+    text-shadow: 2px 10px rgb(184, 49, 72);
     font-family: "Caveat", cursive;
     font-weight: bolder;
     font-style: normal;
@@ -78,10 +82,10 @@ cursor: pointer;
     color: rgb(232, 87, 111);
 }
 
-.you:hover{
+.you:hover {
     transform: translateY(6px);
     transition: ease-in-out .2s;
-    text-shadow:  2px 10px rgb(184, 49, 72);
+    text-shadow: 2px 10px rgb(184, 49, 72);
     font-family: "Caveat", cursive;
     font-weight: bolder;
     font-style: normal;
@@ -89,10 +93,10 @@ cursor: pointer;
     color: rgb(232, 87, 111);
 }
 
-.a:hover{
+.a:hover {
     transform: translateY(6px);
     transition: ease-in-out .2s;
-    text-shadow:  2px 10px rgb(184, 49, 72);
+    text-shadow: 2px 10px rgb(184, 49, 72);
     font-family: "Caveat", cursive;
     font-weight: bolder;
     font-style: normal;
@@ -100,10 +104,10 @@ cursor: pointer;
     color: rgb(232, 87, 111);
 }
 
-.very:hover{
+.very:hover {
     transform: translateY(6px);
     transition: ease-in-out .2s;
-    text-shadow:  2px 10px rgb(184, 49, 72);
+    text-shadow: 2px 10px rgb(184, 49, 72);
     font-family: "Caveat", cursive;
     font-weight: bolder;
     font-style: normal;
@@ -111,10 +115,10 @@ cursor: pointer;
     color: rgb(232, 87, 111);
 }
 
-.happy:hover{
+.happy:hover {
     transform: translateY(6px);
     transition: ease-in-out .2s;
-    text-shadow:  2px 10px rgb(184, 49, 72);
+    text-shadow: 2px 10px rgb(184, 49, 72);
     font-family: "Caveat", cursive;
     font-weight: bolder;
     font-style: normal;
@@ -122,10 +126,10 @@ cursor: pointer;
     color: rgb(232, 87, 111);
 }
 
-.bdy:hover{
+.bdy:hover {
     transform: translateY(6px);
     transition: ease-in-out .2s;
-    text-shadow:  2px 10px rgb(184, 49, 72);
+    text-shadow: 2px 10px rgb(184, 49, 72);
     font-family: "Caveat", cursive;
     font-weight: bolder;
     font-style: normal;
@@ -133,10 +137,10 @@ cursor: pointer;
     color: rgb(232, 87, 111);
 }
 
-.paglu:hover{
+.paglu:hover {
     transform: translateY(6px);
     transition: ease-in-out .2s;
-    text-shadow:  2px 10px rgb(184, 49, 72);
+    text-shadow: 2px 10px rgb(184, 49, 72);
     font-family: "Caveat", cursive;
     font-weight: bolder;
     font-style: normal;
@@ -145,358 +149,1367 @@ cursor: pointer;
 }
 
 
-.button{
-    padding: 10px 20px;
-    font-size: 18px;
-    border-radius: 50%;
-    margin-left: 320px;
-    margin-top: 10px;
-    color: white;
-    background-color:rgb(241, 65, 94) ;
-    border: none;
-    box-shadow: 2px 4px rgb(186, 33, 58) ;
-}
+.button  {
+        box-shadow: 3px 4px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #db4e28 5%, #bc3315 100%);
+	background-color:#db4e28;
+	border-radius:.938rem;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:1.063rem;
+	padding:.438rem 1.563rem ;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+    
+   
+    }
 
 
 .button:hover{
-    background-color: rgb(138, 200, 71);
-    color: rgb(17, 75, 16);
-    box-shadow: 2px 4px rgb(106, 162, 22);
-    transform: translateY(2px);
-    transition: ease-in-out .2s
+    background:linear-gradient(to bottom, #bc3315 5%, #db4e28 100%);
+	background-color:#bc3315;
 }
 
-@media only screen and (max-width: 360px)  {
-   body{ background-image:url(pics/flower1.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    width: 100%;
-    height: 100vh;   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  
+.button:active{
+    position:relative;
+	top:1px;
 }
 
+@media only screen and (max-width: 320px){
 
-.ashu-pic-container{
-    /* border: 6px solid red; */
-    background-image: url(pics/image3.jpeg);
-    transition: ease-in-out .8s;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* border-radius: 50%; */
-    width: 250px;
-    height: 250px;
-   margin-top: 0px;
-   margin-left: 0px;
+    body {
+        background-image: url(pics/new-image.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100vw;
+        height: 100vh;
 
-    box-shadow: 2px 5px 5px rgb(115, 73, 9);
+        
     }
-    .ashu-pic{
+
+    .ashu-pic-container {
+        /* border: 1px solid red; */
+        background-image: url(pics/image3.jpeg);
+        transition: ease-in-out .8s;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        width: 15rem;
+        height: 15rem;
+        margin-top: 0;
+        margin-left: 0;
+        box-shadow: 2px 5px 5px rgb(115, 73, 9);
+        
+    }
+
+    .ashu-pic-container:hover {
+        background-image: url(pics/pinki.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        width: 17rem;
+        height: 17rem;
+        margin-top: 0;
+        margin-left: 0;
+        box-shadow: 2px 5px 5px rgb(115, 73, 9);
+        cursor: pointer;
+        justify-content: center;
+    }
+
+    .ashu-pic {
         object-fit: cover;
         overflow: hidden;
         width: 100%;
         height: 100%;
         border-radius: 50%;
     }
-    .ashu-pic-container:hover{
+    .pera-div {
+        padding-left: 0rem;
+        padding: 0rem 0rem;
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        /* width: 700px; */
+        /* height: 220px; */
+        /* border: 2px solid black; */
+        text-align: center;
+    }
+
+    .p {
+        font-family: "Caveat", cursive;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(232, 87, 111);
+        text-shadow: 2px 3px  rgb(184, 49, 72);
+        line-height: 3rem;
+        cursor: pointer;
+        
+    
+    
+    }
+    
+
+    .wishing:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .you:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .a:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .very:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .happy:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .bdy:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .paglu:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .button  {box-shadow: 3px 4px 0px 0px #cf866c;
+        background:linear-gradient(to bottom, #db4e28 5%, #bc3315 100%);
+        background-color:#db4e28;
+        border-radius:15px;
+        border:1px solid #942911;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:7px 25px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #854629;
+        }
+    
+    
+    .button:hover{
+        background:linear-gradient(to bottom, #bc3315 5%, #db4e28 100%);
+        background-color:#bc3315;
+    }
+    
+    .button:active{
+        position:relative;
+        top:1px;
+    }
+
+}
+    
+@media only screen and (min-width: 320px){
+
+    body {
+        background-image: url(pics/new-image.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100vw;
+        height: 100vh;
+
+        
+    }
+
+    .ashu-pic-container {
+        /* border: 1px solid red; */
+        background-image: url(pics/image3.jpeg);
+        transition: ease-in-out .8s;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        width: 15rem;
+        height: 15rem;
+        margin-top: 0;
+        margin-left: 0;
+        box-shadow: 2px 5px 5px rgb(115, 73, 9);
+        
+    }
+
+    .ashu-pic-container:hover {
         background-image: url(pics/pinki.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         border-radius: 50%;
-        width: 250px;
-        height: 250px;
-        justify-content: center;
+        width: 17rem;
+        height: 17rem;
+        margin-top: 0;
+        margin-left: 0;
         box-shadow: 2px 5px 5px rgb(115, 73, 9);
         cursor: pointer;
-        margin-top: 0px;
-        margin-left: 0px;
+        justify-content: center;
+    }
 
-        } 
-        .pera-div{
-            margin-left: 0px;
-            margin-top: 0px;
-            width: 80%;
-            height: 130px;
-            /* border: 2px solid black; */
-            padding: 10px;
-        } 
+    .ashu-pic {
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .pera-div {
+        padding-left: 0rem;
+        padding: 0rem 0rem;
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        /* width: 700px; */
+        /* height: 220px; */
+        /* border: 2px solid black; */
+        text-align: center;
+    }
 
-        .p{
-            font-family: "Caveat", cursive;
-            font-optical-sizing: auto;
-            font-weight: bold;
-            font-style: normal;
-            font-size: 26px;
-            color: rgb(232, 87, 111);
-            text-shadow: 1px 2px  rgb(197, 56, 79);
-            line-height:50px;
-            cursor: pointer;
-          }
+    .p {
+        font-family: "Caveat", cursive;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(232, 87, 111);
+        text-shadow: 2px 3px  rgb(184, 49, 72);
+        line-height: 3rem;
+        cursor: pointer;
+        
+    
+    
+    }
+    
 
-          .wishing:hover{
-            transform: translateY(6px);
-            transition: ease-in-out .2s;
-            text-shadow:  2px 10px rgb(184, 49, 72);
-            font-family: "Caveat", cursive;
-            font-weight: bold;
-            font-style: normal;
-            font-size: 26px;
-            color: rgb(232, 87, 111);
+    .wishing:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .you:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .a:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .very:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .happy:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .bdy:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .paglu:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .button  {box-shadow: 3px 4px 0px 0px #cf866c;
+        background:linear-gradient(to bottom, #db4e28 5%, #bc3315 100%);
+        background-color:#db4e28;
+        border-radius:15px;
+        border:1px solid #942911;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:7px 25px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #854629;
         }
+    
+    
+    .button:hover{
+        background:linear-gradient(to bottom, #bc3315 5%, #db4e28 100%);
+        background-color:#bc3315;
+    }
+    
+    .button:active{
+        position:relative;
+        top:1px;
+    }
 
-        .you:hover{
-            transform: translateY(6px);
-            transition: ease-in-out .2s;
-            text-shadow:  2px 10px rgb(184, 49, 72);
-            font-family: "Caveat", cursive;
-            font-weight: bold;
-            font-style: normal;
-            font-size: 26px;
-            color: rgb(232, 87, 111);
-        }
+}
+    
+@media only screen and (min-width: 375px){
+
+    body {
+        background-image: url(pics/new-image.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100vw;
+        height: 100vh;
+
         
-        .a:hover{
-            transform: translateY(6px);
-            transition: ease-in-out .2s;
-            text-shadow:  2px 10px rgb(184, 49, 72);
-            font-family: "Caveat", cursive;
-            font-weight: bold;
-            font-style: normal;
-            font-size: 26px;
-            color: rgb(232, 87, 111);
-        }
+    }
+
+    .ashu-pic-container {
+        /* border: 1px solid red; */
+        background-image: url(pics/image3.jpeg);
+        transition: ease-in-out .8s;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        width: 17rem;
+        height: 17rem;
+        margin-top: 0;
+        margin-left: 0;
+        box-shadow: 2px 5px 5px rgb(115, 73, 9);
         
-        .very:hover{
-            transform: translateY(6px);
-            transition: ease-in-out .2s;
-            text-shadow:  2px 10px rgb(184, 49, 72);
-            font-family: "Caveat", cursive;
-            font-weight: bold;
-            font-style: normal;
-            font-size: 26px;
-            color: rgb(232, 87, 111);
-        }
-        
-        .happy:hover{
-            transform: translateY(6px);
-            transition: ease-in-out .2s;
-            text-shadow:  2px 10px rgb(184, 49, 72);
-            font-family: "Caveat", cursive;
-            font-weight: bold;
-            font-style: normal;
-            font-size: 26px;
-            color: rgb(232, 87, 111);
-        }
-        
-        .bdy:hover{
-            transform: translateY(6px);
-            transition: ease-in-out .2s;
-            text-shadow:  2px 10px rgb(184, 49, 72);
-            font-family: "Caveat", cursive;
-            font-weight: bold;
-            font-style: normal;
-            font-size: 26px;
-            color: rgb(232, 87, 111);
-        }
-        
-        .paglu:hover{
-            transform: translateY(6px);
-            transition: ease-in-out .2s;
-            text-shadow:  2px 10px rgb(184, 49, 72);
-            font-family: "Caveat", cursive;
-            font-weight: bold;
-            font-style: normal;
-            font-size: 26px;
-            color: rgb(232, 87, 111);
-        }
+    }
+
+    .ashu-pic-container:hover {
+        background-image: url(pics/pinki.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        width: 17.4rem;
+        height: 17.4rem;
+        margin-top: 0;
+        margin-left: 0;
+        box-shadow: 2px 5px 5px rgb(115, 73, 9);
+        cursor: pointer;
+        justify-content: center;
+    }
+
+    .ashu-pic {
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .pera-div {
+        padding-left: 0rem;
+        padding: 0rem 0rem;
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        /* width: 700px; */
+        /* height: 220px; */
+        /* border: 2px solid black; */
        
-        .button{
-            padding: 5px 8px;
-            font-size: 11px;
-            font-weight: bold;
-            border-radius: 20%;
-            margin-left: 0%;
-            margin-top: 0px;
-            color: white;
-            background-color:rgb(241, 65, 94) ;
-            border: none;
-            box-shadow: 2px 4px rgb(186, 33, 58) ;
+    }
+
+    .p {
+        font-family: "Caveat", cursive;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2.2rem;
+        color: rgb(232, 87, 111);
+        text-shadow: 2px 3px  rgb(184, 49, 72);
+        line-height: 3rem;
+        cursor: pointer;
+        
+    
+    
+    }
+    
+
+    .wishing:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2.3rem;
+        color: rgb(184, 49, 72);
+        
+    }
+    
+    .you:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2.3rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .a:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2.3rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .very:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2.3rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .happy:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2.3rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .bdy:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2.3rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .paglu:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2.3rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .button  {box-shadow: 3px 4px 0px 0px #cf866c;
+        background:linear-gradient(to bottom, #db4e28 5%, #bc3315 100%);
+        background-color:#db4e28;
+        border-radius:15px;
+        border:1px solid #942911;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:7px 25px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #854629;
         }
+    
+    
+    .button:hover{
+        background:linear-gradient(to bottom, #bc3315 5%, #db4e28 100%);
+        background-color:#bc3315;
+    }
+    
+}
+    
+
+@media only screen and (min-width: 425px){
+
+    body {
+        background-image: url(pics/new-image.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100vw;
+        height: 100vh;
+
+        
+    }
+
+    .ashu-pic-container {
+        /* border: 1px solid red; */
+        background-image: url(pics/image3.jpeg);
+        transition: ease-in-out .8s;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        width: 19rem;
+        height: 19rem;
+        margin-top: 0;
+        margin-left: 0;
+        box-shadow: 2px 5px 5px rgb(115, 73, 9);
+        
+    }
+
+    .ashu-pic-container:hover {
+        background-image: url(pics/pinki.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        width: 19.4rem;
+        height: 19.4rem;
+        margin-top: 0;
+        margin-left: 0;
+        box-shadow: 2px 5px 5px rgb(115, 73, 9);
+        cursor: pointer;
+        justify-content: center;
+    }
+
+    .ashu-pic {
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .pera-div {
+        /* margin-left: 0;
+        margin-top: 0;
+       padding: 4rem 3rem;
+        /* width: 700px; */
+        /* height: 220px; */
+        /* border: 2px solid black; */
+        padding-left: 0rem;
+        padding: 0rem 0rem;
+        padding-top: 3.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    .p {
+        font-family: "Caveat", cursive;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2.4rem;
+        color: rgb(232, 87, 111);
+        text-shadow: 2px 3px  rgb(184, 49, 72);
+        line-height: 3.4rem;
+        cursor: pointer;
+        
+    
+    
+    }
+    
+
+    .wishing:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .you:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .a:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .very:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .happy:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .bdy:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .paglu:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .button  {box-shadow: 3px 4px 0px 0px #cf866c;
+        background:linear-gradient(to bottom, #db4e28 5%, #bc3315 100%);
+        background-color:#db4e28;
+        border-radius:15px;
+        border:1px solid #942911;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:7px 25px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #854629;
+        }
+    
+    
+    .button:hover{
+        background:linear-gradient(to bottom, #bc3315 5%, #db4e28 100%);
+        background-color:#bc3315;
+    }
+    
+
+}
+    
+
+@media only screen and (min-width: 480px){
+
+    body {
+        background-image: url(pics/new-image.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100vw;
+        height: 100vh;
+
+        
+    }
+
+    .ashu-pic-container {
+        /* border: 1px solid red; */
+        background-image: url(pics/image3.jpeg);
+        transition: ease-in-out .8s;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        width: 20rem;
+        height: 20rem;
+        margin-top: 0;
+        margin-left: 0;
+        box-shadow: 2px 5px 5px rgb(115, 73, 9);
+        
+    }
+
+    .ashu-pic-container:hover {
+        background-image: url(pics/pinki.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        width: 20.4rem;
+        height: 20.4rem;
+        margin-top: 0;
+        margin-left: 0;
+        box-shadow: 2px 5px 5px rgb(115, 73, 9);
+        cursor: pointer;
+        justify-content: center;
+    }
+
+    .ashu-pic {
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .pera-div {
+        padding-left: 0rem;
+        padding: 0rem 0rem;
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        /* width: 700px; */
+        /* height: 220px; */
+        /* border: 2px solid black; */
+      
+    }
+
+    .p {
+        font-family: "Caveat", cursive;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2.6rem;
+        color: rgb(232, 87, 111);
+        text-shadow: 2px 3px  rgb(184, 49, 72);
+        line-height: 3.5rem;
+        cursor: pointer;
+        
+    
+    
+    }
+    
+
+    .wishing:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2.6rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .you:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2.6rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .a:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2.6rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .very:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2.6rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .happy:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2.6rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .bdy:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2.6rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .paglu:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 2.6rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .button  {box-shadow: 3px 4px 0px 0px #cf866c;
+        background:linear-gradient(to bottom, #db4e28 5%, #bc3315 100%);
+        background-color:#db4e28;
+        border-radius:15px;
+        border:1px solid #942911;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:7px 25px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #854629;
+        }
+    
+    
+    .button:hover{
+        background:linear-gradient(to bottom, #bc3315 5%, #db4e28 100%);
+        background-color:#bc3315;
+    }
+    
+
+}
+    
+
+
+@media only screen and (min-width: 768px){
+
+    body {
+        background-image: url(pics/bgpic.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100vw;
+        height: 100vh;
+
+        
+    }
+
+    .ashu-pic-container {
+        /* border: 1px solid red; */
+        background-image: url(pics/image3.jpeg);
+        transition: ease-in-out .8s;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        width: 25rem;
+        height: 25rem;
+        margin-top: 0;
+        margin-left: 0;
+        box-shadow: 2px 5px 5px rgb(115, 73, 9);
+        
+    }
+
+    .ashu-pic-container:hover {
+        background-image: url(pics/pinki.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        width: 25.2rem;
+        height: 25.2rem;
+        margin-top: 0;
+        margin-left: 0;
+        box-shadow: 2px 5px 5px rgb(115, 73, 9);
+        cursor: pointer;
+        justify-content: center;
+    }
+
+    .ashu-pic {
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .pera-div {
+        /* width: 700px; */
+        /* height: 220px; */
+        /* border: 2px solid black; */
+        padding-left: 0rem;
+        padding: 0rem 0rem;
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .p {
+        font-family: "Caveat", cursive;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 3.5rem;
+        color: rgb(232, 87, 111);
+        text-shadow: 2px 3px  rgb(184, 49, 72);
+        line-height: 3.9rem;
+        letter-spacing: .2rem;
+        cursor: pointer;
+        
+    
+    
+    }
+    
+
+    .wishing:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 3.6rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .you:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 3.6rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .a:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 3.6rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .very:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 3.6rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .happy:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 3.6rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .bdy:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-size: 3.6rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .paglu:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(232, 87, 111);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 3.6rem;
+        color: rgb(184, 49, 72);
+    }
+    
+    .button {
+        /* padding: 12px 22px;
+        font-size: 1rem;
+        border-radius: 50%;
+        margin-left: 0;
+        margin-top: 0;
+        color: white;
+        background-color: rgb(215, 56, 82);
+        border: none;
+        box-shadow: 2px 4px rgb(241, 65, 94) ;
+        transition: ease-in-out .2s; */
+        box-shadow: 3px 4px 0px 0px #cf866c;
+        background:linear-gradient(to bottom, #db4e28 5%, #bc3315 100%);
+        background-color:#db4e28;
+        border-radius:15px;
+        border:1px solid #942911;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:7px 25px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #854629;
+        
+    }
+
+    .button:hover {
+        /* background-color: rgb(138, 200, 71);
+        color: rgb(17, 75, 16);
+        box-shadow: 2px 4px rgb(106, 162, 22);
+        transform: translateY(2px);
+        transition: ease-in-out .2s;
+        padding: 11px 21px; */
+
+        background:linear-gradient(to bottom, #bc3315 5%, #db4e28 100%);
+	background-color:#bc3315;
+    }
+
+}
+    
+
+@media only screen and (min-width: 1024px){
+
+    body {
+        background-image: url(pics/bgpic.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    padding-top: 4rem;
+    padding-left: 5rem;
+    }
+    
+    .ashu-pic-container {
+        /* border: 1px solid red; */
+        background-image: url(pics/image3.jpeg);
+        transition: ease-in-out .8s;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        width: 30rem;
+        height: 30rem;
+        /* margin-top: 20px;
+        margin-left: 120px; */
+        box-shadow: 2px 5px 5px rgb(115, 73, 9);
+    }
+    
+    .ashu-pic-container:hover {
+        background-image: url(pics/pinki.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+        width: 30.2rem;
+        height: 30.2rem;
+        /* margin-top: 0px;
+        margin-left: 0px; */
+        box-shadow: 2px 5px 5px rgb(115, 73, 9);
+        cursor: pointer;
+    }
+    
+    .ashu-pic {
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    
+    .pera-div {
+        /* margin-left: 50px;
+        margin-top: 30px; */
+        /* width: 700px; */
+        /* height: 220px; */
+        /* border: 2px solid black; */
+        
+        padding-left: 0rem;
+        padding: 0rem 0rem;
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .p {
+        font-family: "Caveat", cursive;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 3rem;
+        color: rgb(232, 87, 111);
+        text-shadow: 3px 4px 0px rgb(184, 49, 72);
+        line-height: 4rem;
+        cursor: pointer;
+    
+    
+    }
+    
+    
+    
+    .wishing:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 3.2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .you:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 3.2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .a:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 3.2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .very:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 3.2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .happy:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 3.2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .bdy:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 3.2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    .paglu:hover {
+        transform: translateY(6px);
+        transition: ease-in-out .2s;
+        text-shadow: 2px 10px rgb(184, 49, 72);
+        font-family: "Caveat", cursive;
+        font-weight: bolder;
+        font-style: normal;
+        font-size: 3.2rem;
+        color: rgb(232, 87, 111);
+    }
+    
+    
+    /* .button {
+        padding: 10px 20px;
+        font-size: 18px;
+        border-radius: 50%;
+        /* margin-left: 320px;
+        margin-top: 10px; */
+        /* color: white;
+        background-color: rgb(241, 65, 94);
+        border: none;
+        box-shadow: 2px 4px rgb(186, 33, 58);
+        transition: ease-in-out .2s;
+    } */ */
+    
+    .button  {
+        box-shadow: 3px 4px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #db4e28 5%, #bc3315 100%);
+	background-color:#db4e28;
+	border-radius:15px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+    
+    }
+
+
+.button:hover{
+    background:linear-gradient(to bottom, #bc3315 5%, #db4e28 100%);
+	background-color:#bc3315;
+}
+
 
 
 }
 
 
-@media only screen and (max-width: 480px)  {
-    body{ background-image:url(pics/flower1.jpg);
-     background-repeat: no-repeat;
-     background-size:cover;
-     width: 100%;
-     height: 100vh;   
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-   
- }
- 
- .main-containe-ashu-pic{
- width: 350px;
- height: 350px;
- background-color: aquamarine;
- 
- }
- 
- .ashu-pic-container{
-     /* border: 6px solid red; */
-     background-image: url(pics/image3.jpeg);
-     transition: ease-in-out .8s;
-     background-repeat: no-repeat;
-     background-size: cover;
-     /* border-radius: 50%; */
-     width: 350px;
-     height: 350px;
-    margin-top: 0px;
-    margin-left: 0px;
- 
-     box-shadow: 2px 5px 5px rgb(115, 73, 9);
-     }
-     .ashu-pic{
-         object-fit: cover;
-         overflow: hidden;
-         width: 100%;
-         height: 100%;
-         border-radius: 50%;
-     }
-     .ashu-pic-container:hover{
-         background-image: url(pics/pinki.jpeg);
-         background-repeat: no-repeat;
-         background-size: cover;
-         border-radius: 50%;
-         width: 350px;
-         height: 350px;
-         justify-content: center;
-         box-shadow: 2px 5px 5px rgb(115, 73, 9);
-         cursor: pointer;
-         margin-top: 0px;
-         margin-left: 0px;
- 
-         } 
-         .pera-div{
-             margin-left: 0px;
-             margin-top: 0px;
-             width: 90%;
-             height: 130px;
-             /* border: 2px solid greenyellow; */
-             padding: 10px;
-         } 
- 
-         .p{
-             font-family: "Caveat", cursive;
-             font-optical-sizing: auto;
-             font-weight: bold;
-             font-style: normal;
-             font-size: 36px;
-             color: rgb(232, 87, 111);
-             text-shadow: 1px 2px  rgb(197, 56, 79);
-             line-height:60px;
-             cursor: pointer;
-             text-align: center;
-             padding: 20px;
-           }
- 
-           .wishing:hover{
-             transform: translateY(6px);
-             transition: ease-in-out .2s;
-             text-shadow:  2px 10px rgb(184, 49, 72);
-             font-family: "Caveat", cursive;
-             font-weight: bold;
-             font-style: normal;
-             font-size: 26px;
-             color: rgb(232, 87, 111);
-         }
- 
-         .you:hover{
-             transform: translateY(6px);
-             transition: ease-in-out .2s;
-             text-shadow:  2px 10px rgb(184, 49, 72);
-             font-family: "Caveat", cursive;
-             font-weight: bold;
-             font-style: normal;
-             font-size: 26px;
-             color: rgb(232, 87, 111);
-         }
-         
-         .a:hover{
-             transform: translateY(6px);
-             transition: ease-in-out .2s;
-             text-shadow:  2px 10px rgb(184, 49, 72);
-             font-family: "Caveat", cursive;
-             font-weight: bold;
-             font-style: normal;
-             font-size: 26px;
-             color: rgb(232, 87, 111);
-         }
-         
-         .very:hover{
-             transform: translateY(6px);
-             transition: ease-in-out .2s;
-             text-shadow:  2px 10px rgb(184, 49, 72);
-             font-family: "Caveat", cursive;
-             font-weight: bold;
-             font-style: normal;
-             font-size: 26px;
-             color: rgb(232, 87, 111);
-         }
-         
-         .happy:hover{
-             transform: translateY(6px);
-             transition: ease-in-out .2s;
-             text-shadow:  2px 10px rgb(184, 49, 72);
-             font-family: "Caveat", cursive;
-             font-weight: bold;
-             font-style: normal;
-             font-size: 26px;
-             color: rgb(232, 87, 111);
-         }
-         
-         .bdy:hover{
-             transform: translateY(6px);
-             transition: ease-in-out .2s;
-             text-shadow:  2px 10px rgb(184, 49, 72);
-             font-family: "Caveat", cursive;
-             font-weight: bold;
-             font-style: normal;
-             font-size: 26px;
-             color: rgb(232, 87, 111);
-         }
-         
-         .paglu:hover{
-             transform: translateY(6px);
-             transition: ease-in-out .2s;
-             text-shadow:  2px 10px rgb(184, 49, 72);
-             font-family: "Caveat", cursive;
-             font-weight: bold;
-             font-style: normal;
-             font-size: 26px;
-             color: rgb(232, 87, 111);
-         }
-        
-         .button{
-             padding: 10px 15px;
-             font-size: 15px;
-             font-weight: bold;
-             border-radius: 20%;
-             margin-left: 0%;
-             margin-top: 80px;
-             color: white;
-             background-color:rgb(241, 65, 94) ;
-             border: none;
-             box-shadow: 2px 4px rgb(186, 33, 58) ;
-         }
- 
- 
- }
