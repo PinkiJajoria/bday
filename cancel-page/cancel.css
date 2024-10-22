@@ -108,7 +108,7 @@ body {
     height: 100%;
     top: 0px;
     left: 0px;
-    background-image: url(pics/ashu3.jpeg);
+    background-image: url(pics/deepakbhai.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -137,12 +137,12 @@ body {
 
 
 .pera2 {
-    margin-top: 85%;
+    margin-top:  95%;
     line-height: 35px;
     font-size: 30px;
     padding: 20px;
     font-weight: bolder;
-    color: bisque;
+    color: white;
 }
 
 .button-div {
@@ -289,7 +289,7 @@ a {
         height: 100%;
         top: 0px;
         left: 0px;
-        background-image: url(pics/ashu3.jpeg);
+        background-image: url(pics/deepakbhai.jpeg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -318,12 +318,13 @@ a {
     
     
     .pera2 {
-        margin-top: 85%;
+        margin-top:  95%;
         line-height: 1rem;
         font-size: 1rem;
+
         padding: 20px;
         font-weight: bolder;
-        color: bisque;
+        color: white;
     }
     
     .button-div {
@@ -474,7 +475,7 @@ a {
         height: 100%;
         top: 0px;
         left: 0px;
-        background-image: url(pics/ashu3.jpeg);
+        background-image: url(pics/deepakbhai.jpeg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -503,12 +504,12 @@ a {
     
     
     .pera2 {
-        margin-top: 85%;
+        margin-top:  95%;
         line-height: 1rem;
         font-size: 1rem;
         padding: 20px;
         font-weight: bolder;
-        color: bisque;
+        color: white;
     }
     
     .button-div {
@@ -656,7 +657,7 @@ a {
             height: 100%;
             top: 0px;
             left: 0px;
-            background-image: url(pics/ashu3.jpeg);
+            background-image: url(pics/deepakbhai.jpeg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -685,12 +686,12 @@ a {
         
         
         .pera2 {
-            margin-top: 85%;
+            margin-top:  95%;
             line-height: 1.2rem;
             font-size: 1.3rem;
             padding: 20px;
             font-weight: bolder;
-            color: bisque;
+            color: white;
         }
         
         .button-div {
@@ -844,7 +845,7 @@ a {
             height: 100%;
             top: 0px;
             left: 0px;
-            background-image: url(pics/ashu3.jpeg);
+            background-image: url(pics/deepakbhai.jpeg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -873,12 +874,12 @@ a {
         
         
         .pera2 {
-            margin-top: 85%;
+            margin-top:  95%;
             line-height: 1.4rem;
             font-size: 1.5rem;
             padding: 20px;
             font-weight: bolder;
-            color: bisque;
+            color: white;
         }
         
         .button-div {
@@ -1033,7 +1034,7 @@ a {
             height: 100%;
             top: 0px;
             left: 0px;
-            background-image: url(pics/ashu3.jpeg);
+            background-image: url(pics/deepakbhai.jpeg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -1049,6 +1050,7 @@ a {
             transform: rotateY(-360deg);
         }
         
+        
         .card:hover .right-side {
             transform: rotateY(360deg);
         }
@@ -1062,12 +1064,12 @@ a {
         
         
         .pera2 {
-            margin-top: 85%;
+            margin-top:  95%;
             line-height: 1.6rem;
             font-size: 1.8rem;
             padding: 20px;
             font-weight: bolder;
-            color: bisque;
+            color: white;
         }
         
         .button-div {
@@ -1221,7 +1223,7 @@ a {
             height: 100%;
             top: 0px;
             left: 0px;
-            background-image: url(pics/ashu3.jpeg);
+            background-image: url(pics/deepakbhai.jpeg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -1250,12 +1252,12 @@ a {
         
         
         .pera2 {
-            margin-top: 85%;
+            margin-top: 95%;
             line-height: 1.8rem;
             font-size: 1.9rem;
             padding: 20px;
             font-weight: bolder;
-            color: bisque;
+            color: white;
         }
         
         .button-div {
